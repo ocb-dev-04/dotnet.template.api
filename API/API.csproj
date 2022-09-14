@@ -4,8 +4,6 @@
 		<TargetFramework>net6.0</TargetFramework>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
-		<UserSecretsId>67921e1d-e53c-4b87-883b-d16a6dab3df2</UserSecretsId>
-		<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -17,10 +15,7 @@
 		<PackageReference Include="Serilog.Sinks.PostgreSQL" Version="2.3.0" />
 		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.0" />
 
-		<PackageReference Include="Npgsql" Version="6.0.3" />
-		<PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.3" />
 		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
-		<PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
 		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.3" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.3">
 			<PrivateAssets>all</PrivateAssets>
@@ -30,10 +25,6 @@
 
 		<PackageReference Include="FluentValidation" Version="10.4.0" />
 		<PackageReference Include="FluentValidation.AspNetCore" Version="10.4.0" />
-
-		<PackageReference Include="Npgsql" Version="6.0.3" />
-		<PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.3" />
-		
 	</ItemGroup>
 
 	<ItemGroup>
